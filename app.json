@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Quotes",
+    "slug": "Quotes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/src/components/assets/quote.png",
+    "scheme": "quotes",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "userInterfaceStyle": "automatic"
+    },
+    "android": {
+      "userInterfaceStyle": "automatic",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen"
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
